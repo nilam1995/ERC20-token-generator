@@ -11,15 +11,21 @@
   "dependencies": {
     "@next/font": "13.4.13",
     "@openzeppelin/contracts": "^4.9.3",
-    "ethers": "^5.7.2",
+    "dotenv": "^16.4.5",
     "next": "13.4.13",
     "react": "18.2.0",
+    "react-bootstrap-icons": "^1.11.4",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1",
+    "react-icons": "^4.12.0",
     "web3modal": "^1.9.9"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.12.0"
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "autoprefixer": "^10.4.19",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
   }
 }

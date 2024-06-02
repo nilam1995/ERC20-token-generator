@@ -107,4 +107,5 @@ We are using RemixID for deploying the contract and generation of the ABI in the
 - [@consultancy](https://www.theblockchaincoders.com/consultancy)
 - [@youtube](https://www.youtube.com/@daulathussain)
 
-
+erc20Generator: 0x22EE7D4174aC6B67546a4f4D42BD3A7d7f6AEDae
+LookupContract:0xCa42EA3bD9843A81E2A4CbCA5AECafBe77c239cd
