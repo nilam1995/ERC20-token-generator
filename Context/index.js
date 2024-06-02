@@ -37,7 +37,7 @@ export const StateContextProvider = ({children}) => {
         const nativeName = await nativeContract.name();
         const nativeSymbol = await nativeContract.symbol();
         const nativeDecimals = await nativeContract.decimals();
-        // const nativeTotalSupply = await nativeContract.totalSupply();
+        const nativeTotalSupply = await nativeContract.totalSupply();
         const nativeTotalAddress = await nativeContract.address;
 
         const nativeToken = {
@@ -46,7 +46,7 @@ export const StateContextProvider = ({children}) => {
           address: nativeTotalAddress,
           symbol: nativeSymbol,
           decimals: nativeDecimals,
-          // totalSupply: ethers.utils.formatUnits(nativeTotalSupply.toString(),"ether"),
+          totalSupply: ethers.utils.formatUnits(nativeTotalSupply.toString(),"ether"),
         }
         setNativeToken(nativeToken)
         console.log(nativeToken);
